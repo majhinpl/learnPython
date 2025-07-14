@@ -159,3 +159,37 @@ acc1.debit(1000)
 acc1.credit(500)
 acc1.credit(40000)
 acc1.debit(5000)
+
+
+
+# del keyword
+# use to delete object properties or object itself
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+s1 = Student("nephx")
+print(s1.name)
+del s1
+# print(s1.name)
+
+# Private(like) attributes & methods
+"""
+Conceptual Implementations in Python
+Privet attributes & methods are meant to be used only within the class and are not accessible from outside the class.
+
+"""
+class Account:
+    def __init__(self, acc_pass, acc_no):
+        self.acc_no = acc_no
+        self.__acc_pass = acc_pass
+
+    def reset_pass(self):
+        print(self.__acc_passs)
+
+acc1 = Account("123456", "abcde")
+
+print(acc1.acc_no)
+# print(acc1.reset_pass())
+

@@ -238,7 +238,6 @@ if i > 5:
 print("some useful work")
 
 
-
 # Qs 
 # WAP to find the sum of first n numbers. (using while)
 
