@@ -1,0 +1,3 @@
+Byte code is Not machine code.
+- Python specific interpretation
+- cpython, iython, IronPython, Stackless, PyPy
