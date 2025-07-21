@@ -1,7 +1,7 @@
 import random
 import string
 
-pw_len = 15
+pw_len = 20
 
 charValues = string.ascii_letters + string.digits + string.punctuation
 
